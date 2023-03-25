@@ -5,9 +5,8 @@ def add(x, y):
 def subtract(x, y):
     return x - y
 
-
-#TODO: Multiply
-
+def multiply(x,y):
+    return x * y
 
 def divide(x, y):
     return x / y
@@ -24,7 +23,8 @@ def main():
                 print(add(x, y))
             elif op == "-":
                 print(subtract(x, y))
-            # TODO : Multiply
+            elif op == "*":
+                print(multiply(x,y))
             elif op == "/":
                 print(divide(x, y))
             else:

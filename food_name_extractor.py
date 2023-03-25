@@ -22,10 +22,22 @@ def food_name_extractor():
     random_food_names = random.sample(food_names, 5)
     return random_food_names
 
+# Prints food names as a pretty list.
+def print_food_names():
+    food_names = food_name_extractor()
+    for food in food_names:
+        print(food)
 
-#TODO: Print the food_name_extractor() output as a pretty list.
+# Returns a random rating for each element in the given food names array.
+def food_rating():
+    food_ratings = {}
+    food_names = food_name_extractor()
 
-#TODO: Write a function that returns a random rating for each element in the given food names array.
+    for food in food_names:
+        food_rating[food] = random.randint(0,5)
+    
+    return food_ratings
+
 
 if __name__ == '__main__':
     print(food_name_extractor())
