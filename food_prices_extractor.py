@@ -9,7 +9,7 @@ def food_price_extractor():
     food_prices = {}
 
     for food in food_names:
-        food_prices[food] = round(random.uniform(5, 25), 2)
+        food_prices[food] = round(random.uniform(5, 25) / 0.25) * 0.25
     
     return food_prices
 
