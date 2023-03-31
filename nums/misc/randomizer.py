@@ -1,7 +1,7 @@
 import random
 
 # Define a list of fruits
-fruits = ['apple', 'banana', 'orange', 'kiwi', 'grape']
+fruits = ['apple', 'banana', 'orange', 'kiwi', 'grape', 'watermelon']
 
 # Pick a random fruit from the list
 random_fruit = random.choice(fruits)
@@ -21,7 +21,7 @@ print("Is 4 even?", is_even(4))
 print("Is 7 even?", is_even(7))
 
 # Create a dictionary of people and their ages
-people = {'John': 25, 'Jane': 30, 'Bob': 20}
+people = {'John': 25, 'Jane': 30, 'Bob': 20, 'Alice': 40}
 
 # Loop through the dictionary and print each person's name and age
 for name, age in people.items():
