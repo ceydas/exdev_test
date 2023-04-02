@@ -11,6 +11,9 @@ def multiply(x,y):
 def divide(x, y):
     return x / y
 
+def redundant():
+    return False
+
 def main():
     while True:
         try:
@@ -21,6 +24,8 @@ def main():
             op = input("Enter operation: ")
             if op == "+":
                 print(add(x, y))
+            elif op == "*-*":
+                return redundant()
             elif op == "-":
                 print(subtract(x, y))
             elif op == "*":
