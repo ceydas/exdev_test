@@ -44,6 +44,11 @@ def calculate_total_revenue(sales, discounts):
     return total_revenue
 
 
+def calculate_total_expenses(expenses):
+    sum = 0
+    for e in expenses:
+        sum += e
 
-    
+    return sum
+
 
