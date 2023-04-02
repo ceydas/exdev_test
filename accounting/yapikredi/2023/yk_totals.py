@@ -36,6 +36,14 @@ def january_layoffs(budget, current, goal):
         
 
 
+def calculate_total_revenue(sales, discounts):
+    """Calculate the total revenue based on the sales and discounts."""
+    total_sales = sum(sales)
+    total_discounts = sum(discounts)
+    total_revenue = total_sales - total_discounts
+    return total_revenue
+
+
 
     
 
