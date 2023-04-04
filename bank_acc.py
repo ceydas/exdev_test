@@ -101,3 +101,9 @@ if __name__ == "__main__":
     print(f"The balance of your account is: {account.balance}")
     account.deposit(500)
    
+
+# kavunici: fix issue 6
+
+def fix_issue6():
+    print("fixed issue 6")
+    return True

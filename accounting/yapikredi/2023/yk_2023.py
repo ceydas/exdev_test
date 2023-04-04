@@ -13,7 +13,7 @@ def calculate_yapikredi_earnings(year, budget, gdp):
 # ozan : 3 functions
 def calculate_yapikredi_loss(year, budget, gdp):
     # calculate the growth rate based on the GDP
-    growth_rate = 0.02 + (gdp - 2) * 0.005
+    growth_rate = 0.02 + (gdp - 2) * 0.015
     
     # calculate the expected earnings for the year
     expected_earnings = budget * (1 + growth_rate) * (1 + (year - 2020) * 0.01)
@@ -44,3 +44,10 @@ def generate_yapikredi_calendar():
 def generate_plan():
     plan = ["New plan for 2023"]
     return plan
+
+
+# kavunici :fix issue #15
+
+def fix_issue15():
+    print("fixed.")
+    return True
