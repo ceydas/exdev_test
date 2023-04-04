@@ -48,3 +48,10 @@ def management_tasks(people):
     
     return tasks
 
+
+
+# kavunici: fix issue #11
+
+def fix_issue11():
+    print("fix issue 11")
+    return True
