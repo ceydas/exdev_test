@@ -8,3 +8,4 @@ def commit_by_brian_1():
 
 def commit_by_brian_2():
     print("commit 2 by brian")
+    print("commit 3 by brian")
