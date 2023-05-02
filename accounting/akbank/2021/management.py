@@ -32,7 +32,7 @@ def generate_tasks():
     "Perform internal audit of accounts receivable",
     "Analyze financial ratios and trends"
     ]
-    
+
     random.shuffle(tasks)
 
     # shuffle the array to get a random order
