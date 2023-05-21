@@ -16,3 +16,10 @@ def commit_by_brian_1():
 
 def commit_by_ceydas_new_pr():
     print("new pull request associated.")
+
+
+def commit_by_ceydas_5_new_pr_with_review():
+    print("new pr with another reviewer.")
+
+def commit_by_kavunici():
+    print("commit by kavunici")
