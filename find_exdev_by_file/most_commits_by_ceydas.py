@@ -13,3 +13,6 @@ def commit_by_ceyda_4():
 
 def commit_by_brian_1():
     print("commit 1 by brian")
+
+def commit_by_ceydas_new_pr():
+    print("new pull request associated.")
